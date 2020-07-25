@@ -10,7 +10,7 @@ GRAYSCALE_40 = r"B@&#MZWO0QbdpqwmoazunxrctiI1?l!+~;:-_,`."
 GRAYSCALE_10 = '@%#J+=-:.'
 GRAYSCALE_DOUBLE = '01'
 SYMBOL_WIDTH, SYMBOL_HEIGHT = 11, 17
-FONT = ImageFont.truetype('resourses/Lucon.ttf', 19)
+FONT = ImageFont.truetype('Lucon.ttf', 19)
 
 
 def convertToAscii(image, new_width, new_height, symbols):
