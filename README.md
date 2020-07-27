@@ -10,12 +10,12 @@
 Pillow(Python Imaginary Lib)
 
 Примеры запуска:
-python AsciiGenerator.py --image test1.jpg --width 240 
+python AsciiGenerator.py --image test.jpg --width 240 
 
-python AsciiGenerator.py --image test2.jpg --mode double
+python AsciiGenerator.py --image test.jpg --mode double
 
-python AsciiGenerator.py --image test3.jpg --scale 0.3
+python AsciiGenerator.py --image test.jpg --scale 0.3
 
-python AsciiGenerator.py --image test4.jpg --scale 0.4 --mode double
+python AsciiGenerator.py --image test.jpg --scale 0.4 --mode double
 
 python AsciiGenerator.py --image 256.ansi
