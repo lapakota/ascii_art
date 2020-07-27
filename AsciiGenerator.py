@@ -13,7 +13,7 @@ SYMBOL_WIDTH, SYMBOL_HEIGHT = 11, 17
 FONT = ImageFont.truetype('Lucon.ttf', 19)
 
 
-def convertToAscii(image, new_width, new_height, symbols):
+def create_ascii_txt(image, new_width, new_height, symbols):
     image = image.resize((new_width, new_height))
     image = image.convert('L')
     pixels = image.getdata()
@@ -123,7 +123,7 @@ def main():
         sys.exit(1)
     mode = check_mode(args)
     out_file_name = "ascii_string.txt"
-    ascii_art = convertToAscii(image, new_width, new_height, mode)
+    ascii_art = create_ascii_txt(image, new_width, new_height, mode)
     with open(out_file_name, "w") as f:
         f.write(ascii_art)
     out_image = create_ascii_image(image, new_width, new_height, mode)
