@@ -49,13 +49,7 @@ def create_ascii_image(image, new_width, new_height, symbols):
 
 
 def check_width_and_height(width, height):
-    if width <= 0:
-        return False
-    if height <= 0:
-        return False
-    else:
-        return True
-
+    return width > 0 and height > 0
 
 def check_mode(args):
     if args.mode:
