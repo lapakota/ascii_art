@@ -1,6 +1,6 @@
 import unittest
 
-from AsciiGenerator import convertToAscii, GRAYSCALE_10, GRAYSCALE_40, \
+from AsciiGenerator import GRAYSCALE_10, GRAYSCALE_40, \
     parse_args, check_mode, check_width_and_height, create_ascii_image
 from PIL import Image
 
